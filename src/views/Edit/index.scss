@@ -1,0 +1,9 @@
+@use "../../sass/variables" as *;
+
+.editScreenDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+
+}

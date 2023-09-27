@@ -1,0 +1,13 @@
+@use "../../sass/variables" as *;
+
+.title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    h1 {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 30px;
+    }
+}

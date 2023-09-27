@@ -1,0 +1,9 @@
+@use "../../sass/variables" as *;
+
+.deleteScreenDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+
+}

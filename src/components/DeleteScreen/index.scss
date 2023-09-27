@@ -1,0 +1,47 @@
+@use "../../sass/variables" as *;
+
+.deleteScreen {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 45rem;
+    height: 25rem;
+    align-items: center;
+    border-radius: 8px;
+    font-family: 'Raleway';
+
+
+    h2 {
+        font-weight: 400;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding-bottom: 2rem;
+    }
+
+    button {
+        width: 15rem;
+        height: 4rem;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+
+        
+        font-size: 30px;
+    }
+
+    .noButton {
+        background-color: $blue-button-color;
+        color: white;
+        font-weight: 600;
+    }
+
+    .yesButton {
+        border: 1px black solid;
+        font-weight: 500;
+    }
+}
